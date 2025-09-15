@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karang Taruna - Wadah Generasi Muda</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <div class="logo">KT</div>
+        </div>
+        <h1>KARANG TARUNA</h1>
+        <p>Wadah Pengembangan Generasi Muda</p>
+        
+        <nav>
+            <ul>
+                <li><a href="#home">Beranda</a></li>
+                <li><a href="#activities">Kegiatan</a></li>
+                <li><a href="#gallery">Galeri</a></li>
+                <li><a href="#schedule">Jadwal</a></li>
+                <li><a href="#contact">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <section id="home" class="hero animated">
+            <h2>Selamat Datang di Website Karang Taruna</h2>
+            <p>Kami adalah organisasi pemuda yang bergerak dalam berbagai kegiatan sosial, kebudayaan, dan pembangunan masyarakat. Mari bergabung bersama kami untuk menciptakan perubahan positif!</p>
+            <a href="#contact" class="btn">Daftar Sekarang</a>
+        </section>
+
+        <section id="activities">
+            <h2 class="section-title">Kegiatan Kami</h2>
+            <div class="activities">
+                <div class="activity-card animated">
+                    <div class="activity-img">🛠️</div>
+                    <div class="activity-content">
+                        <h3>Bakti Sosial</h3>
+                        <p>Kegiatan membantu masyarakat sekitar yang membutuhkan, seperti membersihkan lingkungan dan membantu warga kurang mampu.</p>
+                    </div>
+                </div>
+                
+                <div class="activity-card animated">
+                    <div class="activity-img">🎨</div>
+                    <div class="activity-content">
+                        <h3>Pelatihan Keterampilan</h3>
+                        <p>Berbagai pelatihan untuk mengembangkan kemampuan pemuda seperti komputer, kerajinan tangan, dan kewirausahaan.</p>
+                    </div>
+                </div>
+                
+                <div class="activity-card animated">
+                    <div class="activity-img">⚽</div>
+                    <div class="activity-content">
+                        <h3>Olahraga & Kesegaran Jasmani</h3>
+                        <p>Kegiatan olahraga rutin untuk menjaga kesehatan dan kebugaran anggota karang taruna.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="gallery">
+            <h2 class="section-title">Galeri Kegiatan</h2>
+            <div class="gallery">
+                <div class="gallery-item">Foto Kegiatan Bakti Sosial</div>
+                <div class="gallery-item">Pelatihan Keterampilan</div>
+                <div class="gallery-item">Turnamen Olahraga</div>
+                <div class="gallery-item">Kegiatan Seni Budaya</div>
+            </div>
+        </section>
+
+        <section id="schedule">
+            <h2 class="section-title">Jadwal Kegiatan</h2>
+            <div class="schedule">
+                <table class="schedule-table">
+                    <thead>
+                        <tr>
+                            <th>Hari</th>
+                            <th>Waktu</th>
+                            <th>Kegiatan</th>
+                            <th>Tempat</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Sabtu</td>
+                            <td>08:00 - 10:00</td>
+                            <td>Senam Bersama</td>
+                            <td>Lapangan Desa</td>
+                        </tr>
+                        <tr>
+                            <td>Minggu</td>
+                            <td>09:00 - 12:00</td>
+                            <td>Bakti Sosial</td>
+                            <td>Lingkungan RW 05</td>
+                        </tr>
+                        <tr>
+                            <td>Selasa</td>
+                            <td>15:00 - 17:00</td>
+                            <td>Pelatihan Komputer</td>
+                            <td>Balai Desa</td>
+                        </tr>
+                        <tr>
+                            <td>Kamis</td>
+                            <td>15:00 - 17:00</td>
+                            <td>Latihan Pencak Silat</td>
+                            <td>Lapangan Desa</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2 class="section-title">Daftar Menjadi Anggota</h2>
+            <div class="contact-form">
+                <form id="registrationForm">
+                    <div class="form-group">
+                        <label for="name">Nama Lengkap</label>
+                        <input type="text" id="name" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="age">Usia</label>
+                        <input type="number" id="age" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="address">Alamat</label>
+                        <textarea id="address" class="form-control" rows="3" required></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Nomor Telepon</label>
+                        <input type="tel" id="phone" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="interest">Minat & Bakat</label>
+                        <select id="interest" class="form-control" required>
+                            <option value="">Pilih minat dan bakat</option>
+                            <option value="olahraga">Olahraga</option>
+                            <option value="seni">Seni & Budaya</option>
+                            <option value="teknologi">Teknologi</option>
+                            <option value="sosial">Kegiatan Sosial</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="btn">Daftar Sekarang</button>
+                </form>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <div class="container">
+            <h3>Karang Taruna - Membangun Pemuda, Memajukan Desa</h3>
+            <div class="social-links">
+                <a href="#" title="Facebook">📘</a>
+                <a href="#" title="Instagram">📷</a>
+                <a href="#" title="YouTube">📺</a>
+                <a href="#" title="WhatsApp">💬</a>
+            </div>
+            <p>© 2023 Karang Taruna. Semua Hak Dilindungi.</p>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
